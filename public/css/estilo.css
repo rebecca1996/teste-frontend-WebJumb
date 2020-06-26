@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap');
+
+body{ 
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+
+	text-decoration: none;
+}
+.top-bar {
+
+    background: #444;
+}
+
+.link-a{
+
+	color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.link-a:hover{
+
+	color: #fff;
+
+}
+
+.span-topbar{
+
+	color: #fff;
+}
+
+.btn-search {
+    color: #fff;
+    background-color: #CC0D1F;
+    border-color: #CC0D1F;
+    text-transform: uppercase;
+    font-weight: 800;
+   
+}
+.btn-search:hover{
+
+	color: #fff;
+}
+
+.float-r{
+
+	    float: right;
+}
+
+.border-radio-unset{
+
+	 border-radius: unset;
+}
+
+.navbar-section{
+
+	background: #CC0D1F;
+}
+
+.nav-link{
+
+    color: #fff;
+    font-weight: 800;
+    margin-right: 35px;
+        transition: 0.3s ease;
+}
+
+.nav-link:hover{
+
+	color: #fff;
+}
+
+.list-breadcrumb{
+	list-style: none;
+    padding: unset;
+    display: inline-flex;
+}
+
+.before--icon::after{ 
+
+	content: ">";
+    color: #444;
+    margin: 0 10px;
+}
+
+.current-category {
+
+
+	color: #CC0D1F !important;
+}
+
+.link-breadcrumb {
+
+	color: #444;
+	font-weight: bold;
+}
+
+.lateral-menu{
+
+    border: 1px solid #eee;
+    padding: 25px;
+    min-height: auto;
+}
+
+.filter-by{
+
+	    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #cc0d1f;
+}
+
+.categories-h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #66908c;
+        margin-top: 20px;
+
+}
+
+.list-categories{
+
+	    padding: 20px;
+	    list-style: none;
+}
+
+.list-categories li{
+
+	line-height: 30px;
+}
+
+.list-categories li>a{
+
+	color: #858585;
+}
+
+.img-filter{
+
+  width: 20px;
+}
+
+.span-filter{
+
+    color: #858585;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 15px;
+
+}
+.section-filters select{
+
+    border: 1px solid #dddddd;
+    width: 190px;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 25px;
+    background-color: white !important;
+    background: url(https://cdn3.iconfinder.com/data/icons/trico-arrows-1/24/ExpandUpDownSmall-512.png) no-repeat right #ddd;
+    background-position: 98%;
+    padding: 2px 20px 2px 8px;
+    padding-right: 20px;
+    background-size: 14px;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 4px;
+}
+
+
+
+.list-categories li::before {
+	content: "\2022";
+    color: #858585;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+.h1-category{
+
+	    font-size: 30px;
+}
+
+.section-filters{
+
+	border-top: 1px solid #eee;
+}
+
+.colors span{
+
+	    padding: 3px 30px;
+    margin-right: 5px;
+}
+
+.red{
+
+	background: #cc0d1f;
+ 
+}
+
+.orange{
+
+	background: #F36324;
+}
+
+.blue{
+
+	    background: #28a3aa;
+}
+
+.img-product{
+
+    padding: 20px;
+    border: 1px solid #eee;
+    object-fit: cover;
+    min-height: auto;
+}
+
+.discount{
+
+  display: inline-flex;
+}
+
+.disc-label{
+    padding: 7px;
+    font-size: 13px;
+    color: #858585;
+    text-decoration: line-through;
+}
+
+.buy-product a{
+
+    background: #28a3aa;
+    color: #fff;
+    padding: 7px 52px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.buy-product a:hover{
+
+	    background: #197c82; 
+}
+
+.price-product p{
+
+	  color: #cc0d1f;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.title-product p{
+
+	    color: #858585;
+}
+
+.bg-footer{
+
+	background-color: #cc0d1f;
+	min-height: 200px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+    color: #cc0d1f;
+    font-weight: bold;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.mobile{
+
+	display: none;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+
+  .pagination a {
+ 
+    padding: 8px 10px;
+   
+}
+
+  .buy-product a {
+
+    padding: 7px 7px;
+  
+}
+
+  .section-filters select {
+
+    width: 155px;
+    margin-left: 24px;
+    position: relative;
+    top: -5px;
+
+}
+
+  .d-mobile{
+
+    display: inline-flex;
+  }
+
+  .span-filter {
+
+    font-size: 13px;
+}
+
+  .show-how{
+
+    display: none;
+  }
+
+.form-group {
+    margin-bottom: unset;
+}
+
+.desk{
+
+	display: none;
+}
+
+.mobile{
+
+	display: block;
+}
+
+.logo-mobile{
+
+	    position: relative;
+    top: 30px;
+}
+
+	.filters-top{
+
+		    margin-top: 3rem;
+	}
+
+	/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #cc0d1f; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFF;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+}
+

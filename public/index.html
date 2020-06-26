@@ -1,0 +1,479 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+            <meta property="og:region" content="Brasil" />
+            <meta property="og:title" content="Webjump Teste Frontend" />
+            <meta property="og:type" content="article" />
+            <meta property="og:image" content="media/logo-min.png" />
+            <meta property="og:url" content="https://webjump.com.br/" />
+            <meta property="og:description" content="A Webjump é especializada no desenvolvimento de eCommerce personalizado para clientes middle market e enterprise e Referência em Magento na América Latina." />
+            <meta property="og:site_name" content="Webjump" />
+
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+            <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+
+            <link rel="shortcut icon" href="media/fiv.ico" type="image/x-icon" />
+
+            <title>Webjump - Desafio Frontend</title>
+            <meta property="og:description" content="A Webjump é especializada no desenvolvimento de eCommerce personalizado para clientes middle market e enterprise e Referência em Magento na América Latina." />
+        </head>
+        <body>
+
+          <header class="mobile">
+                  <div class="top-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 py-1 text-center">
+                                <a href="" class="link-a">Acesse sua conta</a>
+                                <span class="span-topbar"> ou </span>
+                                <a href="" class="link-a">Cadastre-se</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="logo-section">
+                    <div class="container">
+                        <div class="row pt-4">
+                            <div class="col-2">
+
+                            <!-- Use any element to open the sidenav -->
+                            <span style="font-size: 30px;cursor: pointer;position: relative;top: 30px;" onclick="openNav()">☰</span>
+
+                            </div>
+
+                            <div class="col-6 text-center">
+                            <a href="" alt="Ir para a Página Inicial"><img src="media/logo-min.png" class="img-fluid logo-mobile" title="Logo Webjump"></a>
+
+                            </div>
+
+                            <div class="col-2">
+                                <a href=""><img src="media/search-min.png" style="width: 30px;position: relative;top: 34px;float: right;"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <div id="mySidenav" class="sidenav" style="width: 0px;">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <a href="#">PÁGINA INICIAL</a>
+              <a href="#">CAMISETAS</a>
+              <a href="#">CALÇAS</a>
+              <a href="#">SAPATOS</a>
+              <a href="">CONTATO</a>
+            </div>
+
+         
+          </header>
+
+            <header class="desk">
+                <div class="top-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 py-1 text-right">
+                                <a href="" class="link-a">Acesse sua conta</a>
+                                <span class="span-topbar"> ou </span>
+                                <a href="" class="link-a">Cadastre-se</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="logo-section">
+                    <div class="container">
+                        <div class="row pt-4">
+                            <div class="col-lg-6 text-left">
+                                <a href="" alt="Ir para a Página Inicial"><img src="media/logo-min.png" class="img-fluid" title="Logo Webjump" /></a>
+                            </div>
+
+                            <div class="col-lg-6 text-right">
+                                <form class="form-inline float-r">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control border-radio-unset" id="search" style="width: 25rem;" />
+                                    </div>
+                                    <button type="submit" class="btn btn-search border-radio-unset">Buscar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-section mt-5">
+                    <div class="container">
+                        <div class="row">
+                            <nav class="navbar navbar-expand-lg">
+                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#" title="Ir para a Página Inicial" alt="Ir para a Página Inicial">PÁGINA INICIAL</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" title="Ir para a categoria camisetas" alt="Ir para a categoria camisetas">CAMISETAS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" title="Conheça a categoria de calça" alt="Conheça a categoria de calça">CALÇAS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" title="Confira a categoria de sapatos" alt="Confira a categoria de sapatos">SAPATOS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" title="Vamos conversar? Entre em contato com a gente" alt="Vamos conversar? Entre em contato com a gente">CONTATO</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="content-products py-5">
+                    <div class="container">
+                        <div class="row">
+                            <!-- breadcrumb product page -->
+                            <div class="col-lg-12">
+                                <ul class="list-breadcrumb">
+                                    <li><a href="" title="Ir para a Página Inicial" alt="Ir para a Página Inicial" class="before--icon link-breadcrumb"> Página Inicial</a></li>
+                                    <li><a class="current-category link-breadcrumb" href=""> Sapatos</a></li>
+                                </ul>
+                            </div>
+                            <!-- end breadrumb product page -->
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3 mt-5">
+                                <!-- lateral menu with filters -->
+                                <div class="lateral-menu">
+                                    <h1 class="filter-by">Filtre por</h1>
+
+                                    <h2 class="categories-h2">Categorias</h2>
+
+                                    <ul class="list-categories">
+                                        <li><a href="" title="Ir para a categoria de Roupas" alt="Ir para a categoria de Roupas"> Roupas</a></li>
+
+                                        <li><a href="" title="Ir para a categoria de Sapatos" alt="Ir para a categoria de Sapatos"> Sapatos</a></li>
+
+                                        <li><a href="" title="Ir para a categoria de Acessórios" alt="Ir para a categoria de Acessórios"> Acessórios</a></li>
+                                    </ul>
+
+                                    <h2 class="categories-h2">Cores</h2>
+
+                                    <div class="colors mt-2 mb-5">
+                                        <a href="" title="Filtar por cor: Vermelho" alt="Filtar por cor: Vermelho"><span class="red"></span> </a>
+
+                                        <a href="" title="Filtar por cor: Laranja" alt="Filtar por cor: Laranja"><span class="orange"></span> </a>
+
+                                        <a href="" title="Filtar por cor: Azul" alt="Filtar por cor: Azul"><span class="blue"></span> </a>
+                                    </div>
+
+                                    <h2 class="categories-h2">Tipo</h2>
+
+                                    <ul class="list-categories">
+                                        <li><a href="" title="Filtar por Tipo: Corrida" alt="Filtar por Tipo: Corrida"> Corrida</a></li>
+
+                                        <li><a href="" title="Filtar por Tipo: Caminhada" alt="Filtar por Tipo: Caminhada"> Caminhada</a></li>
+
+                                        <li><a href="" title="Filtar por Tipo: v" alt="Filtar por Tipo: Casual"> Casual</a></li>
+
+                                        <li><a href="" title="Filtar por Tipo: Social" alt="Filtar por Tipo: Social"> Social</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end lateral menu with filters -->
+                            </div>
+
+                            <div class="col-lg-9">
+                                <div class="filters-top">
+                                    <h1 class="current-category h1-category">Sapatos</h1>
+
+                                    <!-- filters and visualization -->
+                                    <div class="section-filters py-3">
+                                        
+                                      <div class="row">
+                                            <div class="col-lg-6 show-how">
+
+                                               <a href="#"><img src="media/grid.png" class="img-filter" alt="Mudar visualização: Grid"></a> 
+                                             <a href="#"><img src="media/list.png" class="img-filter" style="filter: opacity(0.5);"></a>
+                                                
+                                            
+                                             </div>
+
+
+                                        <div class="col-lg-6">
+                                            <div class="float-r d-mobile">
+                                                <span class="span-filter"> ORDERNAR POR: </span> 
+                                            
+                                            <select name="filter" id="filter">
+
+                                                  <option value="preco">Preço</option>
+
+                                                  <option value="cor">Cor</option>
+
+                                                  <option value="tipo">Tipo</option>
+
+                                            </select>
+                                            </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <!-- end filtes and visualization -->
+
+                                    <div class="row show-products mt-5">
+
+
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-7.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS ADIDAS</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 299</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-6.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS NIKE SPORT LIFE</p>
+                                            </div>
+
+                                            <div class="price-product discount"> 
+                                                <span class="disc-label"> R$ 299,90 </span><p> R$ 99</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                         <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-1.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>SAPATO SOCIAL DELUXE</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 399</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-3.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS CASUAL KEDS</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 89</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-7.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS ADIDAS</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 299</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-6.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS NIKE SPORT LIFE</p>
+                                            </div>
+
+                                            <div class="price-product"> 
+                                                <p> R$ 99</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                         <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-1.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>SAPATO SOCIAL DELUXE</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 399</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-3.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS CASUAL KEDS</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 89</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                         <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-7.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS ADIDAS</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 299</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-6.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS NIKE SPORT LIFE</p>
+                                            </div>
+
+                                            <div class="price-product"> 
+                                               <p> R$ 99</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                         <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-1.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>SAPATO SOCIAL DELUXE</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 399</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                        <!-- product block -->
+                                        <div class="col-lg-3 col-6 mt-5 text-center">
+                                            <figure class="img-product">
+                                                <img src="media/shoes-3.jpg" alt="Imagem do produto" title="Imagem do produto" class="img-fluid" />
+                                            </figure>
+                                            <div class="title-product my-3">
+                                                <p>TÊNIS CASUAL KEDS</p>
+                                            </div>
+
+                                            <div class="price-product my-3">
+                                                <p> R$ 89</p>
+                                            </div>
+                                            <div class="buy-product">
+                                                <a href=""> COMPRAR</a>
+                                            </div>
+                                        </div>
+                                        <!-- end product block -->
+
+                                        
+                                    </div>
+
+                                    <div class="pagination-section">
+                                        <div class="col-lg-12 text-center">
+                                            <div class="pagination py-5 mt-5">
+                                                <a href="#" alt="Próxima Página" title="Próxima Página">&laquo;</a>
+                                                <a href="#" alt="Próxima Página" title="Próxima Página">1</a>
+                                                <a alt="Página Atual" title="Página Atual" class="active" href="#">2</a>
+                                                <a href="#" alt="Próxima Página" title="Próxima Página">3</a>
+                                                <a href="#" alt="Próxima Página" title="Próxima Página">4</a>
+                                                <a href="#" alt="Próxima Página" title="Próxima Página">5</a>
+                                                <a href="#" alt="Próxima Página" title="Próxima Página">&raquo;</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="bg-footer"></footer>
+
+            <script>
+                /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+            </script>
+        </body>
+    </html>

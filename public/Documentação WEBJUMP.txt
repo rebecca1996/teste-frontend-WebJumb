@@ -1,0 +1,35 @@
+FERRAMENTAS DE DEV FRONT-END
+
+
+Editor: Sublime Text 3
+Tratamento de Imagens: Corel Draw 2020 e Photoshop Portable
+
+
+TECNOLOGIAS
+
+CSS:
+	
+	Utilização do Boostrap 4 via CDN, por questões de afinidade com a biblioteca juntamente com CSS puro.
+	Otimização de todas as imagens com o OPTIMIZILLA, para garantir melhor otimização das imagens.
+	Uso do object-fit para padrozinar as dimensões das imagens. 
+
+HTML:
+	Aplicação de técninica de SEO.
+	Acessibilidade através de tags especificas do HTML.
+	Identeção do código para melhor visualização. 
+
+
+COMO RODAR
+
+Para executar o projeto basta abrir o arquivo index.html com qualquer navegador. 
+
+
+IMPLEMENTAÇÕES FUTURAS
+
+	Alimentação da visualização dos produtos via API
+	Filtro funcionais a barra lateral
+	Busca superior funcional
+	Mudança de visualização entre grid e lista funcinal
+	
+
+
